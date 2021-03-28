@@ -1,0 +1,58 @@
+name: cookbook
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.0.2
+  cloud_firestore: ^1.0.2
+  firebase_auth: ^1.0.1
+  google_sign_in: ^5.0.1
+  shared_preferences: ^2.0.5
+  google_fonts: ^2.0.0
+  favorite_button: ^0.0.3
+  image_picker: ^0.6.0+17    
+  firebase_storage: ^8.0.1
+  flutter_restart: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/cuisine/north_indian.png
+    - images/cuisine/south_indian.png
+    - images/cuisine/italian.png
+    - images/cuisine/chinese.png
+    - images/login/cover.png
+    - images/login/google.png
+    - images/login/guest.png
+    - images/login/sad.png
+    - images/recipe/dosa.png
+    - images/recipe/momos.png
+    - images/recipe/pannerMasala.png
+    - images/recipe/pasta.png
+    
+    
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
